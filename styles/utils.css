@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+}
+
+.iframe-container{
+    width: 96%;
+    height: 600px;
+    /* margin: auto; */
+    border: none;
+    outline: none;
+    margin: 50px auto;
+    position: relative;
+
+}
+
+.iframe-container iframe{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+}
+    
+.iframe-search{
+    width: 80%;
+    height: 170px;
+    background-color: white;
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.iframe-search h1{
+    font-weight: 700;
+}
+
+.iframe-search-sub{
+    width: 100%;
+    height: 100px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+
+.iframe-search-sub p{
+    color: rgb(72, 71, 71);
+}
+
+
+.iframe-search-sub input{
+    width: 500px;
+    height: 50px;
+    background-color: rgb(238, 235, 235);
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    padding: 20px;
+    font-size: 15px;
+}
+
+.submit{
+    width: fit-content;
+    height: 50px;
+    padding: 0 20px;
+    border: none;
+    outline: none;
+    background-color: rgb(26, 104, 26);
+    color: aliceblue;
+    font-size: 20px;
+    border-radius: 50px;
+    position: absolute;
+    right: 20px;
+}
